@@ -1,0 +1,14 @@
+
+Crawl posts from mindhacks.cn
+
+This exmaple demonstrates:
+    
+    Crawl urls from mindhacks.cn
+    Save post contents to sqlite3
+    How to follow next page link
+
+
+
+
+Reference:
+    http://blog.pluskid.org/?p=366
