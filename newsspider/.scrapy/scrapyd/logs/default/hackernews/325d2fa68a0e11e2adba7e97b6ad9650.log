@@ -1,0 +1,879 @@
+2013-03-11 13:40:37+0800 [scrapy] INFO: Scrapy 0.17.0 started (bot: Baiduspider)
+2013-03-11 13:40:37+0800 [scrapy] DEBUG: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-11 13:40:37+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-11 13:40:37+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-11 13:40:37+0800 [scrapy] DEBUG: Enabled item pipelines: NewsspiderPipeline
+2013-03-11 13:40:37+0800 [hackernews] INFO: Spider opened
+2013-03-11 13:40:37+0800 [hackernews] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-11 13:40:37+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2013-03-11 13:40:37+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2013-03-11 13:40:39+0800 [hackernews] DEBUG: Crawled (200) <GET http://news.ycombinator.com/> (referer: None)
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'\u201cPaleofantasy\u201d: Stone Age delusions',
+	 'url': u'http://www.salon.com/2013/03/10/paleofantasy_stone_age_delusions/'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Dad hacks Donkey Kong for his daughter; Pauline now saves Mario',
+	 'url': u'http://arstechnica.com/gaming/2013/03/dad-hacks-donkey-kong-for-his-daughter-princess-pauline-now-saves-mario/'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Building something cool on your own? I want to interview you',
+	 'url': u'http://www.webuildatnight.com/'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Zombie Startups',
+	 'url': u'http://www.daniellemorrill.com/2013/03/zombie-startups/'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Men who spy on women through their webcams',
+	 'url': u'http://arstechnica.com/tech-policy/2013/03/rat-breeders-meet-the-men-who-spy-on-women-through-their-webcams/'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Intrade Ceases Trading Activity',
+	 'url': u'http://www.intrade.com/v4/home/'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Web Scraping 101 with Python',
+	 'url': u'http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'WebGL Terrain Flyover Demo',
+	 'url': u'http://www.zephyrosanemos.com/'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Harvard Search of E-mail Stuns Its Faculty Members',
+	 'url': u'http://www.nytimes.com/2013/03/11/us/harvard-e-mail-search-stuns-faculty-members.html?pagewanted=all'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u"Doug Adams' 61st birthday doodle by Google",
+	 'url': u'https://www.google.com/webhp?hl=en&tab=ww'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Google: search for an application',
+	 'url': u'https://www.google.com/webhp?sourceid=chrome-instant&ion=1&ie=UTF-8#q=twitter&hl=en&source=lnms&tbm=app&sa=X&ei=VVg9UfuWFqq9ywHA7IH4DQ&sqi=2&ved=0CBIQ_AUoBw&bav=on.2,or.r_cp.r_qf.&fp=3cdd6955c5afd24e&ion=1&biw=1066&bih=725'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u"The hypocrisy in Silicon Valley's big talk on innovation",
+	 'url': u'http://www.sfgate.com/technology/dotcommentary/article/Innovation-and-the-face-of-capitalism-4342160.php'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Show HN: Updated Hacker News Chrome Extension',
+	 'url': u'http://blog.tommoor.com/post/45072871249/hacker-new'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u"What's new in Sinatra 1.4?",
+	 'url': u'http://rkh.im/sinatra-1.4'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Life: Stop wasting my time',
+	 'url': u'http://blog.daemonl.com/2013/03/life-is-wasting-my-time.html'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Revenge porn site founder loses $250k defamation suit',
+	 'url': u'http://arstechnica.com/tech-policy/2013/03/revenge-porn-site-founder-loses-250k-defamation-suit/'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Help funded YC startup reinvent software testing',
+	 'url': u'http://news.ycombinator.com/item?id=5354875'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Do You Really Have to Go to College?',
+	 'url': u'http://thechoice.blogs.nytimes.com/2013/03/07/do-you-really-have-to-go-to-college/?src=recg'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Tech Talk: Steve Souders - Dive Into Performance',
+	 'url': u'https://www.airbnb.com/meetups/khzhp3qhq-tech-talk-steve-souders'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Revolution in Mathematics: What Happened 100 Years Ago and Why It Matters [pdf]',
+	 'url': u'http://www.ams.org/notices/201201/rtx120100031p.pdf'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Bootstrap 3 preview',
+	 'url': u'http://rc.getbootstrap.com/css/'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Why American Airlines Chose Samsung Over Apple When It Bought 17,000 Tablets',
+	 'url': u'http://www.businessinsider.com/american-airlines-picks-samsung-not-apple-2013-3'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'The World Wide Web is Moving to AOL',
+	 'url': u'http://brianbailey.me/the-world-wide-web-is-moving-to-aol'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Pitch Your Thing To Journalists \u2013 PR 101',
+	 'url': u'https://www.dotdotdot.me/Luke-Meyer/Pitch-Your-Thing-To-Journalists---PR-101'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Tracking down a memory leak in Node.js and Socket.IO',
+	 'url': u'http://jpallen.net/2013/03/08/tracking-down-a-memory-leak-in-node-js-and-socket-io/'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Why Lift is My Favorite Web Framework',
+	 'url': u'http://blog.fliptop.com/blog/2013/03/10/why-lift-webframework-is-my-favorite/'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Ship It',
+	 'url': u'http://www.codypowell.com/taods/2013/03/ship-it.html'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'Why I created Comic Sans',
+	 'url': u'http://www.connare.com/whycomic.htm'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u'EmberJS and Confusion, Part 2',
+	 'url': u'http://1fifty9.com/post/45053521205/emberjs-and-confusion-part-2'}
+2013-03-11 13:40:40+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/>
+	{'site': 'hackernews',
+	 'title': u"Google called the MPEG-LA's bluff, and won",
+	 'url': u'http://www.osnews.com/story/26849/Google_called_the_MPEG-LA_s_bluff_and_won'}
+2013-03-11 13:40:42+0800 [hackernews] DEBUG: Crawled (200) <GET http://news.ycombinator.com/news2> (referer: http://news.ycombinator.com/)
+2013-03-11 13:40:42+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Apple left App Store open to attack: Google researcher',
+	 'url': u'http://www.zdnet.com/apple-left-app-store-open-to-attack-google-researcher-7000012372/'}
+2013-03-11 13:40:42+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'How Grindr Is Changing the Way We Connect',
+	 'url': u'http://bits.blogs.nytimes.com/2013/03/10/how-grindr-is-changing-the-way-we-all-connect/'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Django-fancy-cache - Django\u2019s cache_page on steroids',
+	 'url': u'https://github.com/peterbe/django-fancy-cache'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'FPV to space and back',
+	 'url': u'http://rcexplorer.se/projects/2013/03/fpv-to-space-and-back/'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Spidering the web with CasperJS',
+	 'url': u'http://planzero.org/blog/2013/03/07/spidering_the_web_with_casperjs'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Pirate Bay \u2018Advert\u2019 Appears on Hacked Billboard',
+	 'url': u'http://torrentfreak.com/pirate-bay-advert-appears-on-hacked-billboard-130310/'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Chess CAPTCHA',
+	 'url': u'http://en.lichess.org/forum/general-chess-discussion/form'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Django Best Practices',
+	 'url': u'http://lincolnloop.com/django-best-practices/index.html'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'EA Employee Chastises Company Over SimCity in Public Letter',
+	 'url': u'http://www.forbes.com/sites/insertcoin/2013/03/08/ea-employee-chastizes-company-over-simcity-in-public-letter/'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u"Computer Science 'Ninja Arts'",
+	 'url': u'http://blog.prof.so/2013/03/compsciarts.html'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Courtney Love does the math (2000)',
+	 'url': u'http://www.salon.com/2000/06/14/love_7/#'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Apply to seventh batch of Hacker School',
+	 'url': u'https://www.hackerschool.com/apply'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'OpenRuko - Open Source Heroku Clone / Implementation',
+	 'url': u'https://github.com/openruko'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'How No-Flush Toilets Can Help Make a Healthier World',
+	 'url': u'http://e360.yale.edu/feature/how_no-flush_toilets_can_help_make_a_healthier_world/2581/'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'GitHub is getting DDoSed again',
+	 'url': u'https://status.github.com/messages?'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Writing about not having an opinion on technology',
+	 'url': u'http://adactio.com/journal/6123/'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Stop Corporate Takeover of New Internet Names',
+	 'url': u'http://www.change.org/petitions/icann-stop-corporate-takeover-of-new-internet-names'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Gl-solar \u2013 WebGL rendering of OSM data',
+	 'url': u'http://mike.teczno.com/notes/gl-solar-webgl-openstreetmap.html'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'A complete archive of all Intrade contracts',
+	 'url': u'http://intrade-archive.appspot.com/'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Rigging the IPO game',
+	 'url': u'http://www.nytimes.com/2013/03/10/opinion/sunday/nocera-rigging-the-ipo-game.html'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Full stack engineer for YC company in Sydney Australia',
+	 'url': u'http://news.ycombinator.com/item?id=5354017'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Microcode: the place where hardware and software meet',
+	 'url': u'http://alanwinfield.blogspot.co.uk/2006/02/on-microcode-place-where-hardware-and.html'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'A new type of piano keyboard: The Seaboard',
+	 'url': u'http://www.weareroli.com/'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Some dark corners of C',
+	 'url': u'https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?usp=sharing'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'30 Weeks of Game Development',
+	 'url': u'http://www.uberent.com/outlandgames/2013/03/08/30-weeks-of-development/'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u"World's most detailed scans will reveal how brain works",
+	 'url': u'http://www.bbc.co.uk/news/science-environment-21660159'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'How would you responsibly disclose proof that p=np?',
+	 'url': u'http://news.ycombinator.com/item?id=5354393'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Algorithms Get A Human Hand In Steering Web',
+	 'url': u'http://www.nytimes.com/2013/03/11/technology/computer-algorithms-rely-increasingly-on-human-helpers.html'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Twitter? It\u2019s Not Fun Anymore',
+	 'url': u'http://thetwitcleaner.com/blog/goodbye'}
+2013-03-11 13:40:43+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/news2>
+	{'site': 'hackernews',
+	 'title': u'Circus: A Process and Socket Manager',
+	 'url': u'http://circus.readthedocs.org/en/0.6/'}
+2013-03-11 13:40:45+0800 [hackernews] DEBUG: Crawled (200) <GET http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm> (referer: http://news.ycombinator.com/news2)
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Using type inference to make web templates robust against XSS',
+	 'url': u'https://js-quasis-libraries-and-repl.googlecode.com/svn/trunk/safetemplate.html'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Forget Your GPA',
+	 'url': u'http://refer.ly/forget-your-gpa/c/faf268f6885011e2bfbf22000a1db8fa'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Killer apps for software platforms',
+	 'url': u'http://dafoster.net/articles/2013/03/10/killer-apps-for-software-platforms/'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Require companies to use the term "licensing" instead of "buying" with DRM goods',
+	 'url': u'https://petitions.whitehouse.gov/petition/force-companies-change-language-buying-licensing-when-dealing-drm-restricted-goods/myq4rZjX'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Saying goodbye to\xa0SimplyTweet',
+	 'url': u'http://motionobj.com/blog/saying-goodbye-to-simplytweet'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Escaping a Python sandbox (NdH 2013 quals writeup)',
+	 'url': u'http://blog.delroth.net/2013/03/escaping-a-python-sandbox-ndh-2013-quals-writeup/'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Apartments So Small They Can Only Be Photographed From Above',
+	 'url': u'http://www.theatlanticcities.com/housing/2013/02/apartments-so-small-they-can-only-be-photographed-above/4780/'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u"Let's Scrape the Web with Python 3",
+	 'url': u'http://codecr.am/blog/post/7/'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Here come the encryption apps',
+	 'url': u'http://blog.cryptographyengineering.com/2013/03/here-come-encryption-apps.html'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Russian Satellite Hit by Debris from Chinese Anti-Satellite Test',
+	 'url': u'http://mashable.com/2013/03/09/russian-satellite/?utm_medium=feed&utm_source=feedburner&utm_campaign=Feed%3A+mashable%2Ftech+%28Mashable+%C2%BB+Tech%29'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Show HN \u2013 Presentation.io: Broadcast presentations live across devices',
+	 'url': u'http://www.presentation.io'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Sharecropping: A Sucker\u2019s Game Then \u2014 and Now',
+	 'url': u'http://www.mediaorchard.com/2013/02/sharecropping-a-suckers-game-then-and-now/'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u"Breaking down Amazon's mega dropdown",
+	 'url': u'http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Hacking Github with Webkit',
+	 'url': u'http://homakov.blogspot.com/2013/03/hacking-github-with-webkit.html'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Mary, queen of maths',
+	 'url': u'http://m.bbc.co.uk/news/magazine-21713163'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: How do blind people code and work with terminals?',
+	 'url': u'http://news.ycombinator.com/item?id=5352608'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Calvin and Hobbes on Product-Market Fit',
+	 'url': u'http://i.imgur.com/2ICHf9q.png'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'The Velocity of Censorship: High-Fidelity Detection of Microblog Post Deletions',
+	 'url': u'http://arxiv.org/abs/1303.0597'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Australian Central Bank Hacked by China Malware',
+	 'url': u'http://www.bloomberg.com/news/2013-03-10/australian-central-bank-hacked-by-china-malware-afr-says.html'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'SimCity Burning: A Warning to Publishers on The Dangers of Always-Online DRM',
+	 'url': u'http://www.ign.com/articles/2013/03/08/simcity-burning-a-warning-to-microsoft-sony-and-all-publishers-on-the-dangers-of-always-online-drm'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Living With Less. A Lot Less',
+	 'url': u'http://www.nytimes.com/2013/03/10/opinion/sunday/living-with-less-a-lot-less.html?pagewanted=2&hp&&%2359;_r=0&pagewanted=all'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'CMU 10-701 \u2013 Introduction to Machine Learning',
+	 'url': u'http://alex.smola.org/teaching/cmu2013-10-701/'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'9th Circuit Appeals Court: 4th Amendment Applies At The Border',
+	 'url': u'http://www.techdirt.com/articles/20130308/13380622263/9th-circuit-appeals-court-4th-amendment-applies-border-also-password-protected-files-shouldnt-arouse-suspicion.shtml'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'BitInstant hacked: What and how it happened',
+	 'url': u'http://blog.bitinstant.com/blog/2013/3/4/events-of-friday-bitinstant-back-online.html'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Physicists Discover a Whopping 13 New Solutions to Three-Body Problem',
+	 'url': u'http://news.sciencemag.org/sciencenow/2013/03/physicists-discover-a-whopping.html'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'CentOS Linux 6.4 Released',
+	 'url': u'http://lists.centos.org/pipermail/centos-announce/2013-March/019276.html'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Hack Price monitoring with IFTTT & ScraperWiki',
+	 'url': u'http://www.wisepricer.com/blog/hack-price-monitoring-with-ifttt-and-scraperwiki/'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Red Hat Reinforces Java Commitment and Assumes Leadership of OpenJDK 6 Community',
+	 'url': u'http://www.redhat.com/about/news/press-archive/2013/3/red-hat-reinforces-java-commitment'}
+2013-03-11 13:40:46+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u'Passport ownership in America, by state. Let\u2019s play "Correlations"',
+	 'url': u'http://exp.lore.com/post/44802179035/passport-ownership-in-america-by-state-lets'}
+2013-03-11 13:40:47+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm>
+	{'site': 'hackernews',
+	 'title': u"A Peek into Einstein's Zurich Notebook",
+	 'url': u'http://www.pitt.edu/~jdnorton/Goodies/Zurich_Notebook/index.html'}
+2013-03-11 13:40:48+0800 [hackernews] DEBUG: Crawled (200) <GET http://news.ycombinator.com/x?fnid=HQxPILYyuz> (referer: http://news.ycombinator.com/x?fnid=Jx95KjQ6Tm)
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u"Benjamin Franklin's Essay on Daylight Saving",
+	 'url': u'http://www.webexhibits.org/daylightsaving/franklin3.html'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Interview with Albert Wenger, USV Partner',
+	 'url': u'http://realleaders.tv/p/albert-wenger/'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'The Professor, the Bikini Model and the Suitcase Full of Trouble',
+	 'url': u'http://www.nytimes.com/2013/03/10/magazine/the-professor-the-bikini-model-and-the-suitcase-full-of-trouble.html?hp'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'An open letter to the IIT Graduates',
+	 'url': u'http://www.sachingupta.co/2012/11/an-open-letter-to-iit-graduates.html'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'What happened to Orson Scott Card?',
+	 'url': u'http://www.salon.com/2013/03/07/end_game_for_orson_scott_card_partner/'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'NIST statement on Daylight Saving Time (DST) problem',
+	 'url': u'http://www.nist.gov/pml/div688/grp40/wwvb.cfm'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'The Aleph: Infinite Wonder / Infinite Pity',
+	 'url': u'http://hirmes.com/aleph/'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'SimCity Update 2',
+	 'url': u'http://www.simcity.com/en_US/blog/article/simcity-update-2'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Colossal Black Hole Equal to 17 Billion Suns Discovered',
+	 'url': u'http://www.dailygalaxy.com/my_weblog/2012/11/colossal-black-hole-equal-to-17-billion-suns-discovered-may-overturn-existing-models.html'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Code School Has 172,000 Users',
+	 'url': u'http://www.taylorbrooks.org/code-school-has-a-nice-business/'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u"Data Privacy: Why can't Chrome and Chromium users run their own sync server?",
+	 'url': u'https://code.google.com/p/chromium/issues/detail?id=181429'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Former TSA screener says the job does little to keep fliers safe',
+	 'url': u'http://www.nypost.com/p/news/local/confessions_of_tsa_agent_we_re_bunch_OhxHeGd0RR9UVGzfypjnLO'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Show HN - usernique.com: Generate usernames and check availability',
+	 'url': u'http://www.usernique.com'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u"Arthur's LISP in BASIC",
+	 'url': u'http://www.cs.rit.edu/~anh/lisp_soft.html'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u"Tell HN: Don't stay up late commenting on HN",
+	 'url': u'http://news.ycombinator.com/item?id=5354677'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Nanoparticles loaded with bee venom kill HIV',
+	 'url': u'http://news.wustl.edu/news/Pages/25061.aspx'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Extreme debugging - a tale of microcode and an oven',
+	 'url': u'http://alanwinfield.blogspot.com.br/2013/03/extreme-debugging-tale-of-microcode-and.html'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Which domain registrars have superb security and service?',
+	 'url': u'http://news.ycombinator.com/item?id=5354008'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'VNC Viewer for Google Chrome',
+	 'url': u'https://chrome.google.com/webstore/detail/vnc-viewer/iabmpiboiopbgfabjmgeedhcmjenhbla'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'EA refuses to refund user for SimCity, threatens account ban',
+	 'url': u'http://www.gamechup.com/ea-refuses-to-refund-user-for-simcity-threatens-account-ban/'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Iran blocks use of tool to get around Internet filter',
+	 'url': u'http://www.reuters.com/article/2013/03/10/us-iran-internet-idUSBRE9290CV20130310'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'SpaceX Grasshopper Hoverslam w/ Johnny Cash',
+	 'url': u'http://www.youtube.com/watch?v=2Ivr6JF1K-8'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: When should you add a contributors name to a copyright notice?',
+	 'url': u'http://news.ycombinator.com/item?id=5353913'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Thank you HN, sorry HN',
+	 'url': u'http://news.ycombinator.com/item?id=5348589'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Lua: Good, bad, and ugly parts',
+	 'url': u'http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Twitter\xe2&euro;&trade;s API keys and secrets for its official apps surface',
+	 'url': u'http://thenextweb.com/twitter/2013/03/07/twitters-api-keys-and-secrets-surface-for-its-official-apps-what-should-we-do-with-them/'}
+2013-03-11 13:40:49+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Donkey Kong: Pauline Edition (hack)',
+	 'url': u'http://www.youtube.com/watch?v=JeXDNg7scyU'}
+2013-03-11 13:40:50+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Mozilla says no plans to return to iOS until Apple removes restrictions',
+	 'url': u'http://news.cnet.com/8301-14013_3-57573440/mozilla-says-no-plans-to-return-to-ios/'}
+2013-03-11 13:40:50+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Introducing Sodium, a new cryptographic library',
+	 'url': u'http://labs.umbrella.com/2013/03/06/announcing-sodium-a-new-cryptographic-library/#'}
+2013-03-11 13:40:50+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=HQxPILYyuz>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: AWS vs Azure',
+	 'url': u'http://news.ycombinator.com/item?id=5352070'}
+2013-03-11 13:40:51+0800 [hackernews] DEBUG: Crawled (200) <GET http://news.ycombinator.com/x?fnid=FLqKeCYe3a> (referer: http://news.ycombinator.com/x?fnid=HQxPILYyuz)
+2013-03-11 13:40:51+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u"Ask HN: meteor.js apps you're working on. And why.",
+	 'url': u'http://news.ycombinator.com/item?id=5351277'}
+2013-03-11 13:40:51+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Webdevs, designers: what devtools should we (Mozilla) build in Firefox?',
+	 'url': u'http://news.ycombinator.com/item?id=5325445'}
+2013-03-11 13:40:51+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'How I Fired Myself',
+	 'url': u'http://edu.mkrecny.com/thoughts/how-i-fired-myself'}
+2013-03-11 13:40:51+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Is anyone using Amazon DynamoDB?',
+	 'url': u'http://news.ycombinator.com/item?id=5349547'}
+2013-03-11 13:40:51+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: How does a beginner navigate the JavaScript MVC jungle?',
+	 'url': u'http://news.ycombinator.com/item?id=5348473'}
+2013-03-11 13:40:51+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Back Row',
+	 'url': u'http://nshipster.com/backrow/'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: What is your personal computer setup?',
+	 'url': u'http://news.ycombinator.com/item?id=5351131'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u"For HN: Hacker's Help Network",
+	 'url': u'http://news.ycombinator.com/item?id=5349970'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'40 Years After an Acid Attack, a Life Well Lived',
+	 'url': u'http://www.nytimes.com/2013/03/03/nyregion/40-years-after-an-acid-attack-a-life-well-lived.html?hp&_r=0&pagewanted=all'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u"We're a Romanian team and we've built a new way to make games",
+	 'url': u'http://news.ycombinator.com/item?id=5348556'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'The Fall of Academics at Harvard',
+	 'url': u'http://www.thecrimson.com/article/2013/2/28/fall-of-harvard-academics/'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'FBI entrapping hackers - using FBI self-signed SSL cert',
+	 'url': u'http://news.ycombinator.com/item?id=5347041'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'The Tragedy of Aaron Swartz',
+	 'url': u'http://www.newyorker.com/reporting/2013/03/11/130311fa_fact_macfarquhar?currentPage=all'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'A Gittip Milestone: $100k per year in distributions',
+	 'url': u'http://peak5390.wordpress.com/2013/03/07/a-gittip-milestone-100k-per-year-in-distributions/'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Reverse Engineering OKCupid',
+	 'url': u'http://davidshimel.com/reverse-engineering-okcupid/'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: What made SQL databases so popular?',
+	 'url': u'http://news.ycombinator.com/item?id=5351261'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: My game was just featured in the Windows 8 app store, what do I do next?',
+	 'url': u'http://news.ycombinator.com/item?id=5314484'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Naive, but working attempt at Tern+CoffeeScript',
+	 'url': u'http://www.youtube.com/watch?v=KsbPkbXmzmg'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Learning to code, with no Internet access.',
+	 'url': u'http://news.ycombinator.com/item?id=5343644'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Ubuntu Mir: Is This the Future of Linux Everywhere?',
+	 'url': u'http://www.wired.com/wiredenterprise/2013/03/ubuntu-mir/'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Can you help me find a certain web product?',
+	 'url': u'http://news.ycombinator.com/item?id=5345881'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'The Sharing Economy',
+	 'url': u'http://www.economist.com/news/technology-quarterly/21572914-collaborative-consumption-technology-makes-it-easier-people-rent-items'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Solve the Problems Your Parents Have',
+	 'url': u'http://www.daniellemorrill.com/2013/02/solve-the-problems-your-parents-have/'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Freelancer? Seeking freelancer? (March 2013)',
+	 'url': u'http://news.ycombinator.com/item?id=5304173'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'White House Petition to Eliminate Daylight Savings Time',
+	 'url': u'https://petitions.whitehouse.gov/petition/eliminate-bi-annual-time-change-caused-daylight-savings-time/ShChxpKh'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: ExtJS vs. Backbone/Ember/Angular for huge Enterprise app?',
+	 'url': u'http://news.ycombinator.com/item?id=5335627'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Yours vs. Mine',
+	 'url': u'http://dcurt.is/yours-vs-mine'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Emergency, where can I find building footprints for Kent County, MI?',
+	 'url': u'http://news.ycombinator.com/item?id=5335983'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Should I take a downgrade to work in a better company?',
+	 'url': u'http://news.ycombinator.com/item?id=5336775'}
+2013-03-11 13:40:52+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=FLqKeCYe3a>
+	{'site': 'hackernews',
+	 'title': u'An Unremarkable Event in the Tenderloin',
+	 'url': u'http://www.jonb.org/2013/02/27/An-Unremarkable-Event-in-the-Tenderloin.html'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Crawled (200) <GET http://news.ycombinator.com/x?fnid=EJLtfBkh8c> (referer: http://news.ycombinator.com/x?fnid=FLqKeCYe3a)
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Gawker told me to disable NoScript',
+	 'url': u'http://news.ycombinator.com/item?id=5336970'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: How do you handle copyediting?',
+	 'url': u'http://news.ycombinator.com/item?id=5328507'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'App that improves communication/workflow for hospital "care teams"',
+	 'url': u'http://news.ycombinator.com/item?id=5338314'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Why not build CRUD app generators and be done with it?',
+	 'url': u'http://news.ycombinator.com/item?id=5315191'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Let\xe2&euro;&trade;s Code: Test-Driven JavaScript',
+	 'url': u'http://www.letscodejavascript.com/'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Is 25 too late to become a proficient developer?',
+	 'url': u'http://news.ycombinator.com/item?id=5316209'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Whats the HN equivalent for Europe?',
+	 'url': u'http://news.ycombinator.com/item?id=5318331'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Just Quit my job, what now?',
+	 'url': u'http://news.ycombinator.com/item?id=5321343'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Can anyone in Google hook me up with a desk for a few hours today?',
+	 'url': u'http://news.ycombinator.com/item?id=5332838'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'How are the 30 inch monitors working out for you?',
+	 'url': u'http://news.ycombinator.com/item?id=5318773'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u"Ask HN: Why not make everyone's salary public?",
+	 'url': u'http://news.ycombinator.com/item?id=5282374'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Any self hosting blook software?',
+	 'url': u'http://news.ycombinator.com/item?id=5318140'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: What would you want to see in a nutrition facts food label?',
+	 'url': u'http://news.ycombinator.com/item?id=5333032'}
+2013-03-11 13:40:54+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'The Upbeat Statistics on Rise in Profile of, Demand for, Statisticians',
+	 'url': u'http://blogs.wsj.com/numbersguy/the-upbeat-stats-on-statistics-1216/?KEYWORDS=bialik#'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Creepier By The Minute: Google Glass Will Identify People By Clothing Choices',
+	 'url': u'http://www.macgasm.net/2013/03/08/creepier-the-minute-google-glass-will-identify-people-clothing-choices/'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: What technologies can New Orleans use to counter crime?',
+	 'url': u'http://news.ycombinator.com/item?id=5321706'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'TSA to allow some small knives in carry-on luggage',
+	 'url': u'http://www.bbc.co.uk/news/world-us-canada-21678267'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Offer HN: I will work for free in SF this coming week',
+	 'url': u'http://news.ycombinator.com/item?id=5275309'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Show HN: Recount - share your startup stories anonymously. We are not alone',
+	 'url': u'http://news.ycombinator.com/item?id=5293000'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Github SSL replaced by self-signed certificate in China',
+	 'url': u'http://news.ycombinator.com/item?id=5124784'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Startup Idea : Clean my Download folder',
+	 'url': u'http://news.ycombinator.com/item?id=5322756'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: QA pricing offshore?',
+	 'url': u'http://news.ycombinator.com/item?id=5321984'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Y combinator for Europeans..must be a joke?',
+	 'url': u'http://news.ycombinator.com/item?id=5320476'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: What is the coolest JS library out there?',
+	 'url': u'http://news.ycombinator.com/item?id=5234058'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Where do you get your ideas?',
+	 'url': u'http://news.ycombinator.com/item?id=5292478'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Who is hiring new grads for Fall? (Spring 2013)',
+	 'url': u'http://news.ycombinator.com/item?id=5307011'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Any great programming books in text file format?',
+	 'url': u'http://news.ycombinator.com/item?id=5289701'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Is it practical to have many (4+) simultaneous co-founders?',
+	 'url': u'http://news.ycombinator.com/item?id=5299537'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Good resources for learning about ML/AI?',
+	 'url': u'http://news.ycombinator.com/item?id=5310507'}
+2013-03-11 13:40:55+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=EJLtfBkh8c>
+	{'site': 'hackernews',
+	 'title': u'Show HN: Same day bank deposits to Wells Fargo customers',
+	 'url': u'http://news.ycombinator.com/item?id=5281211'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Crawled (200) <GET http://news.ycombinator.com/x?fnid=kl1dEloea8> (referer: http://news.ycombinator.com/x?fnid=EJLtfBkh8c)
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'PG, the new server feels ultra responsive, tell us the specs please',
+	 'url': u'http://news.ycombinator.com/item?id=5231124'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: How do I pick the best brand name?',
+	 'url': u'http://news.ycombinator.com/item?id=5294867'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: is there a place for single-person bootstrapped software businesses?',
+	 'url': u'http://news.ycombinator.com/item?id=5273424'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Show HN: My first pay to download Android App',
+	 'url': u'http://news.ycombinator.com/item?id=5304128'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: A book/guide for hackers about desigining',
+	 'url': u'http://news.ycombinator.com/item?id=5301009'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Who is hiring? (Intern Edition) - Spring 2013',
+	 'url': u'http://news.ycombinator.com/item?id=5216710'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Hiring an engineer over telnet',
+	 'url': u'http://news.ycombinator.com/item?id=5278248'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Review Habbit - An App to Build Your Ideal Future Self with Habits',
+	 'url': u'http://news.ycombinator.com/item?id=5131995'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Simplify your life with an SSH config file',
+	 'url': u'http://nerderati.com/2011/03/simplify-your-life-with-an-ssh-config-file/'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'What is your best/worst decision of your life?',
+	 'url': u'http://news.ycombinator.com/item?id=5277797'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: What tech stack is your startup built on?',
+	 'url': u'http://news.ycombinator.com/item?id=5227071'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u"Go is freakin' fast, I think",
+	 'url': u'http://news.ycombinator.com/item?id=5220237'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Am I Stupid Again?',
+	 'url': u'http://news.ycombinator.com/item?id=5244659'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u"Nurph's AI for Twitter: Teach your Twitter account to answer your Replies",
+	 'url': u'http://news.ycombinator.com/item?id=5251274'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: How did your startup get its first 1,000 users?',
+	 'url': u'http://news.ycombinator.com/item?id=5234507'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: How would you go about promoting a backpack company?',
+	 'url': u'http://news.ycombinator.com/item?id=5283647'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: What do you think about my search engine?',
+	 'url': u'http://news.ycombinator.com/item?id=5296898'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'In praise of "boring" technology',
+	 'url': u'http://news.ycombinator.com/item?id=5281983'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Is Angular the JS frameworks for hobbyists?',
+	 'url': u'http://news.ycombinator.com/item?id=5231598'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u"Ask HN: Should I do a Master's Degree?",
+	 'url': u'http://news.ycombinator.com/item?id=5289477'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u"Ask HN: What's the most beautiful and/or useful landing page you've seen?",
+	 'url': u'http://news.ycombinator.com/item?id=5239900'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'"rent an expert" with AirPair',
+	 'url': u'http://news.ycombinator.com/item?id=5285968'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Competing with eBay and Craigslist?',
+	 'url': u'http://news.ycombinator.com/item?id=5254260'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: How do you find motivation to teach yourself?',
+	 'url': u'http://news.ycombinator.com/item?id=5210259'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u"Ask HN: I Used My Credit Cards to Fund My Failed Startup and Now They're Suing",
+	 'url': u'http://news.ycombinator.com/item?id=5168629'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN:  putting electronics around a city',
+	 'url': u'http://news.ycombinator.com/item?id=5279806'}
+2013-03-11 13:40:57+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: What does your customer interview process looks like?',
+	 'url': u'http://news.ycombinator.com/item?id=5279337'}
+2013-03-11 13:40:58+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: Quitting my corporate job to help my dads failing small business',
+	 'url': u'http://news.ycombinator.com/item?id=5244843'}
+2013-03-11 13:40:58+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'Ask HN: What are some best resources for learning R?',
+	 'url': u'http://news.ycombinator.com/item?id=5215067'}
+2013-03-11 13:40:58+0800 [hackernews] DEBUG: Scraped from <200 http://news.ycombinator.com/x?fnid=kl1dEloea8>
+	{'site': 'hackernews',
+	 'title': u'What could a geek in his forties learn in 1000 hours for a more exciting career?',
+	 'url': u'http://news.ycombinator.com/item?id=5175673'}
+2013-03-11 13:40:58+0800 [hackernews] DEBUG: Ignoring link (depth > 6): http://news.ycombinator.com/x?fnid=LIZpg84TPP 
+2013-03-11 13:40:58+0800 [hackernews] INFO: Closing spider (finished)
+2013-03-11 13:40:58+0800 [hackernews] INFO: Stored jsonlines feed (210 items) in: /root/scrapy/newsspider/.scrapy/scrapyd/items/default/hackernews/325d2fa68a0e11e2adba7e97b6ad9650.jl
+2013-03-11 13:40:58+0800 [hackernews] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 2112,
+	 'downloader/request_count': 7,
+	 'downloader/request_method_count/GET': 7,
+	 'downloader/response_bytes': 161857,
+	 'downloader/response_count': 7,
+	 'downloader/response_status_count/200': 7,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 11, 5, 40, 58, 95348),
+	 'item_scraped_count': 210,
+	 'log_count/DEBUG': 224,
+	 'log_count/INFO': 5,
+	 'request_depth_max': 6,
+	 'response_received_count': 7,
+	 'scheduler/dequeued': 7,
+	 'scheduler/dequeued/memory': 7,
+	 'scheduler/enqueued': 7,
+	 'scheduler/enqueued/memory': 7,
+	 'start_time': datetime.datetime(2013, 3, 11, 5, 40, 37, 992058)}
+2013-03-11 13:40:58+0800 [hackernews] INFO: Spider closed (finished)

@@ -1,0 +1,21 @@
+Create project:
+
+    scrapy startproject tutorial
+
+Generate a spider:
+
+    scrapy genspider mydomain mydomain.com
+    scrapy genspider -t crawl/xmlfeed/csvfeed spider mydomain mydomain.com
+
+Start crawling:
+
+    scrapy crawl dmoz
+
+Scrapy shell:
+
+    scrapy shell http://www.dmoz.org/Computers/Programming/Languages/Python/Books/
+
+Export json:
+
+    scrapy crawl dmoz -o items.json -t json
+

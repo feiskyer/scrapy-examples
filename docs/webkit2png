@@ -1,0 +1,21 @@
+#Reference
+https://github.com/AdamN/python-webkit2png/
+
+#安装xvfb用于虚拟X环境
+apt-get install xvfb
+
+#安装中文字体
+apt-get install xfonts-wqy
+
+#配置字体
+fontconfig-voodoo -f -s zh_CN
+
+#Get webkit2png
+wget https://raw.github.com/adamn/python-webkit2png/master/scripts/webkit2png
+wget https://raw.github.com/adamn/python-webkit2png/master/webkit2png/webkit2png.py
+chmod +x webkit2png webkit2png.py
+
+#Using
+./webkit2png -x 1366 768 http://www.sina.com.cn -o test2.png
+./webkit2png -x 1366 768 -F javascript http://www.sina.com.cn -o test2.png
+

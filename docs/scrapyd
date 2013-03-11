@@ -1,0 +1,30 @@
+Scrapy Service (scrapyd)
+
+Run as a server:
+# scrapy server
+2013-03-11 13:36:27+0800 [-] Log opened.
+2013-03-11 13:36:27+0800 [-] Scrapyd web console available at http://0.0.0.0:6800/
+2013-03-11 13:36:27+0800 [Launcher] Scrapyd started: max_proc=8, runner='scrapyd.runner'
+2013-03-11 13:36:27+0800 [-] Site starting on 6800
+2013-03-11 13:36:27+0800 [-] Starting factory <twisted.web.server.Site instance at 0x36677e8>
+
+start a spider:
+# curl http://localhost:6800/listprojects.json
+{"status": "ok", "projects": ["default"]}
+
+# curl http://localhost:6800/schedule.json -d project=default -d spider=hackernews
+{"status": "ok", "jobid": "325d2fa68a0e11e2adba7e97b6ad9650"}
+
+# curl http://localhost:6800/cancel.json -d project=default -d job=325d2fa68a0e11e2adba7e97b6ad9650
+{"status": "ok", "prevstate": null}
+
+# curl http://localhost:6800/listversions.json?project=default
+{"status": "ok", "versions": []}
+
+# curl http://localhost:6800/listspiders.json?project=default
+{"status": "ok", "spiders": ["mindhacks", "hackernews"]}
+
+# curl http://localhost:6800/listjobs.json?project=default
+{"status": "ok", "running": [], "finished": [{"start_time": "2013-03-11 13:40:22.537393", "end_time": "2013-03-11 13:40:23.159254", "id": "28e7b04a8a0e11e2adba7e97b6ad9650", "spider": "somespider"}, {"start_time": "2013-03-11 13:40:37.538718", "end_time": "2013-03-11 13:40:58.144857", "id": "325d2fa68a0e11e2adba7e97b6ad9650", "spider": "hackernews"}], "pending": []}
+
+

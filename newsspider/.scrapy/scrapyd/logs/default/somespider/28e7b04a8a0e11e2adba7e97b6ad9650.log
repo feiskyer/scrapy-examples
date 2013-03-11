@@ -1,0 +1,5 @@
+2013-03-11 13:40:22+0800 [scrapy] INFO: Scrapy 0.17.0 started (bot: Baiduspider)
+2013-03-11 13:40:23+0800 [scrapy] DEBUG: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-11 13:40:23+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-11 13:40:23+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-11 13:40:23+0800 [scrapy] DEBUG: Enabled item pipelines: NewsspiderPipeline
