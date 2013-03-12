@@ -1,0 +1,11 @@
+$def with (newses)
+<title>Crawled News</title>
+<body>
+<center>
+<table border=0 cellpadding=2% cellspacing=5>
+$for news in newses:
+    <tr><td><a href="$news.url">$news.title</a><span>($news.site)</span></td></tr>
+    <tr><td><a>$news.abstract</a></td></tr>
+  </table>
+  </center>
+</body>
