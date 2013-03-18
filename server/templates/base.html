@@ -1,0 +1,19 @@
+$def with (page, title=None, pages=1, curpage=1)
+<html><head>
+<title>
+$if title: : $title\
+$else: Tech News
+</title>
+<link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
+</head><body>
+<h2><a href="/">Tech News Home</a></h2>
+$:page
+
+$if curpage!=1:
+  <a style="font-size:150%;color:grey" href="/page/$(curpage-1)">Prev</a> 
+
+$if curpage+1 in range(1,pages+1):
+  <a style="font-size:150%;color:grey" href="/page/$(curpage+1)">Next</a>
+
+</body></html>

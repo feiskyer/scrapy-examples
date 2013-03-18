@@ -7,7 +7,7 @@ def query():
             db='news' , charset="utf8")
     try:
         cursor = conn.cursor()
-        cursor.execute("select * from news")
+        cursor.execute("select * from news order by created desc")
         data =  cursor.fetchall()
     finally:
         conn.close()
