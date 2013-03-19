@@ -2,9 +2,17 @@
 import web
 import db
 import config
+import datetime
+
+def datestr(x):
+    """
+    Can't seem to set mysql creation ddl to UTC, so we'll have to adjust the datestr
+    function to localtime which we will assume is the same as your database server.
+    """
+    return web.datestr(x, datetime.datetime.now())
 
 t_globals = dict(
-  datestr=web.datestr,
+  datestr=datestr,
 )
 render = web.template.render('templates/', cache=config.cache, 
     globals=t_globals)
