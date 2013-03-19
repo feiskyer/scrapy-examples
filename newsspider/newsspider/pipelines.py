@@ -6,6 +6,7 @@ import sys
 import MySQLdb
 import hashlib
 from scrapy.exceptions import DropItem
+from scrapy import log
 import time
 import os
 import uuid
@@ -55,8 +56,10 @@ class NewsspiderPipeline(object):
                         item.get('created', time.strftime('%Y-%m-%d %H:%M:%S')),
                         self.filename.split('/')[-1]) )
                 self.conn.commit()
+            else:
+                log.msg('%s already exists' % url , level=log.WARNING)
         except MySQLdb.Error, e:
-            print "Error %d: %s" % (e.args[0], e.args[1])
+            log.msg("Error %d: %s" % (e.args[0], e.args[1]), level=log.ERROR)
         return item
     
     def finalize(self):
