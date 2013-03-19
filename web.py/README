@@ -1,0 +1,10 @@
+web.py simple examples.
+
+Web sites: `http://webpy.org`
+
+Install guide:
+
+    pip install web.py
+    pip install markdown
+
+Code examples of web.py is taken from `http://webpy.org/src/`
