@@ -23,6 +23,7 @@ USER_AGENT = 'Newsspider+(+http://www.www.com/)'
 
 SPIDER_MODULES = ['newsspider.spiders']
 NEWSPIDER_MODULE = 'newsspider.spiders'
+COMMANDS_MODULE = 'newsspider.commands'
 DUPEFILTER_CLASS = 'scrapy.dupefilter.RFPDupeFilter'
 ITEM_PIPELINES = ['newsspider.pipelines.NewsspiderPipeline']
 SCHEDULER = 'scrapy.core.scheduler.Scheduler'
